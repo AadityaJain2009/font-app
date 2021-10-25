@@ -1,0 +1,61 @@
+body{
+    font-family: 'Cookie', cursive;
+    background-color: rgb(0, 195, 255);
+    background-size: cover;
+}
+
+#header{
+    font-size: 30px;
+    width: 30%;
+}
+
+#info{
+    border-radius: 45px;
+    height: 40px;
+    width: 40px;
+    font-size: large;
+    margin-left: 10px;
+}
+
+#info-dis{
+    color: rgb(0, 195, 255);
+    margin-left: 10px;
+}
+
+#info-dis:hover{
+    color: black;
+}
+
+canvas{
+    margin-left: 700;
+    margin-top: -190;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+
+    from{box-shadow: 3px 3px 38px rgb(63, 62, 62)} 
+    to{box-shadow: 3px 3px 100px rgb(155, 148, 148)} 
+}
+
+#footer{
+        position: fixed;
+        bottom: 0;
+        font-size: x-large;
+        line-height: 30px;
+        width: 100%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+}
+
+video{
+    margin-top: -350;
+    margin-left: 7;
+}
+
+#posi{
+    font-size: 2.5em;
+    color: black;
+}
